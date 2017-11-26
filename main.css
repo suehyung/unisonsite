@@ -194,7 +194,7 @@ footer a {
   display: block;
 }
 
-#menu a:focus, a:hover {
+#menu a:focus, #menu a:hover {
   color: white;
   background-color: rgb(0, 93, 171);
 }
@@ -396,4 +396,12 @@ i.fa.fa-linkedin, i.fa.fa-youtube {
   margin: 8px;
   text-align: center;
   color: #424242;
+}
+
+i.fa.fa-linkedin:focus, i.fa.fa-linkedin:hover {
+  color: rgb(0, 93, 171);
+}
+
+i.fa.fa-youtube:focus, i.fa.fa-youtube:hover {
+  color: darkred;
 }
