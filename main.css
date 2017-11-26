@@ -47,6 +47,8 @@ footer a {
   text-decoration: none;
 }
   
+
+
 /*
  *
  * Common
@@ -61,6 +63,7 @@ footer a {
   float: right;
   text-align: right;
 }
+
 
 
 /*
@@ -83,10 +86,7 @@ footer a {
   margin-top: 0px;
 }
 
-
-
-/* Hamburger Menu */
-
+/* Hamburger Menu Starts Here */
 .hamburger-back {
   position: absolute;
   top: -14px;
@@ -96,8 +96,7 @@ footer a {
   background-color: rgb(0, 93, 171);
 }
 
-#menuToggle
-{
+#menuToggle {
   display: block;
   position: absolute;
   top: 14px;
@@ -108,8 +107,7 @@ footer a {
   user-select: none;
 }
 
-#menuToggle input
-{
+#menuToggle input {
   display: block;
   width: 50px;
   height: 36px;
@@ -208,48 +206,6 @@ footer a {
 
 /*
  *
- * Top Level Navigation
- *
- */
-
-/*  .nav {
-  width: 800px;
-  max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.nav__list {
-  width: 100%;
-  padding: 0;
-  margin: 0;
-}
-
-.nav__item {
-  box-sizing: border-box;
-  display: inline-block;
-  width: 24%;
-  text-align: center;
-  line-height: 24px;
-  padding: 10px;
-  text-transform: uppercase;
-} */
-/* 
-.nav a {
-  text-decoration: none;
-  color: #616161;
-  padding: 24px;
-}
-
-.nav a:hover {
-  text-decoration: underline;
-  color: #212121;
-} */
-
-
-
-/*
- *
  * Content
  *
  */
@@ -295,13 +251,8 @@ figcaption a {
 }
 
 @keyframes slideup {
-  from {
-    bottom: -50%;
-  }
-
-  to {
-    bottom: 0;
-  }
+  from {bottom: -50%;}
+  to {bottom: 0;}
 }
 
 .blue-bar {
@@ -340,7 +291,8 @@ figcaption a {
  /* Youtube Reflexive */
 .container {
   width: 100%;
-  max-width: 560px;  
+  max-width: 560px;
+  margin: auto;
 }
 
 .vid-container {
@@ -361,13 +313,7 @@ figcaption a {
   max-height: 315px;
 }
 
-
-/*
- *
- * Address
- *
- */
-
+/* Address */
 .grey-box {
   background-color: rgb(236, 236, 236);
   width: 100%;
@@ -380,8 +326,6 @@ figcaption a {
 address {
   padding: 10px 16px 10px 16px;
   font-style: normal;
-  /* float: left; */
-  /* display: flex; */
 }
 
 .social-media {
