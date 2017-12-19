@@ -284,6 +284,10 @@ figcaption a {
   justify-content: space-between; 
 }
 
+blockquote cite {
+  font-size: 16px;
+}
+
 /* Address */
 address {
   padding: 10px 16px 10px 16px;
