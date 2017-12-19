@@ -284,7 +284,7 @@ figcaption a {
   justify-content: space-between; 
 }
 
-blockquote cite {
+blockquote p, cite {
   font-size: 16px;
 }
 
