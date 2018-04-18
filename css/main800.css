@@ -115,12 +115,10 @@ header {
 /* Navigation menu properties */
 #menu {
   display: flex;
-  justify-content: space-between;
   height: 70px;
-  margin: 0;
-  padding: 0;
+  width: 75vw;
+  flex-direction: row;
   background: #ededed;
-  /* list-style-type: none; */
 }
 
 #menu li {
@@ -132,7 +130,7 @@ header {
 
 #menu a {
   padding: 22px 8px;
-  display: auto;
+  flex: auto;
   text-align: center;
 }
 
