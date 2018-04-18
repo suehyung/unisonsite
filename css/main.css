@@ -172,7 +172,7 @@ footer a {
 /* Hamburger menu properties */
 #menu {
   position: absolute;
-  width: 246px;
+  width: 248px;
   top: -374px;
   margin: -42px 0 0 -200px;
   padding-top: 51px;
@@ -358,7 +358,7 @@ address {
   padding-top: 36px;
 }
 
-i.fa.fa-linkedin, i.fa.fa-youtube {
+i.fab.fa-linkedin, i.fab.fa-youtube {
   font-size: 22px;
   height: 22px;
   width: 20px;
@@ -367,10 +367,10 @@ i.fa.fa-linkedin, i.fa.fa-youtube {
   color: #424242;
 }
 
-i.fa.fa-linkedin:focus, i.fa.fa-linkedin:hover {
+i.fab.fa-linkedin:focus, i.fab.fa-linkedin:hover {
   color: rgb(0, 93, 171);
 }
 
-i.fa.fa-youtube:focus, i.fa.fa-youtube:hover {
+i.fab.fa-youtube:focus, i.fab.fa-youtube:hover {
   color: darkred;
 }
