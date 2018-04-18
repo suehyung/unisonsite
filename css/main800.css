@@ -5,7 +5,7 @@ body, html {
 }
   
 body {
-  font-family: Roboto;
+  font-family: 'Roboto', Helvetica, sans-serif;
   font-size: 16px;
   color: #424242;
   max-width: 1200px;
@@ -65,7 +65,7 @@ footer a {
 
 .right-align {
   text-align: right;
-
+  float: right;
 }
 
 
@@ -173,6 +173,7 @@ figcaption {
   animation-fill-mode: forwards;
   position: absolute;
   bottom: -90px;
+  left: 0px;
   background: rgba(0, 0, 0, 0.8);
   font-size: 22px;
   width: 100%;
