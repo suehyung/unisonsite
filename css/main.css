@@ -211,19 +211,20 @@ footer a {
  */
 
 figure {
-  display: inline-block;
+  display: flex;
   position: relative;
   overflow: hidden;
   left: 0;
   width: 100%;
-  max-width: 800px;
+  max-height: 300px;
   margin: auto;
 }
 
 figure img {
   width: 100%;
   top: 0;
-  left: 0; 
+  left: 0;
+  align-self: center; 
 }
 
 figcaption {
@@ -232,10 +233,11 @@ figcaption {
   animation-delay: 2s;
   animation-fill-mode: forwards;
   position: absolute;
+  bottom: -70px;
   background: rgba(0, 0, 0, 0.8);
   font-size: 16px;
   width: 100%;
-  height: 40%;
+  height: 70px;
   z-index: 1;
 }
 
@@ -259,7 +261,7 @@ figcaption a {
   background-color: rgb(0, 93, 171);
   height: 16px;
   position: relative;
-  top: -7px;
+  top: 0px;
 }
 
 .welcome-container {
